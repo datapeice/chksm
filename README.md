@@ -1,6 +1,7 @@
 # Multi-Threaded File Hash Checker
 ### This project is a multi-threaded hash verification tool written in C using OpenSSL. It computes MD5, SHA-1, and SHA-256 checksums for a given file in parallel, leveraging pthreads to optimize performance.
 
+![Screenshot](screenshot1.png)
 
 
 Features:
