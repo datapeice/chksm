@@ -2,7 +2,7 @@
 
 SOURCE_FILE="main.c"
 BINARY_NAME="chksm"
-INSTALL_DIR="/usr/bin"
+INSTALL_DIR="/usr/local/bin"
 
 if [ "$(id -u)" -ne 0 ]; then
     echo "Root privileges are required to install the script."
