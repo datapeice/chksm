@@ -2,7 +2,7 @@
 
 # Name of the installed binary
 BINARY_NAME="chksm"
-INSTALL_DIR="/usr/bin"
+INSTALL_DIR="/usr/local/bin"
 
 # Check for root privileges
 if [ "$(id -u)" -ne 0 ]; then
